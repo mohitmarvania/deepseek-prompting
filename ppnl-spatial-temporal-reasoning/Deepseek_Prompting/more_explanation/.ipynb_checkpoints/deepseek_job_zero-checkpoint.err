@@ -1,0 +1,20 @@
+
+Lmod is automatically replacing "gnu9/9.3.0" with "gnu10/10.3.0-ya".
+
+
+Inactive Modules:
+  1) hwloc/2.1.0     2) libfabric     3) ucx
+
+The following have been reloaded with a version change:
+  1) openmpi4/4.0.4 => openmpi4/4.1.2-4a
+
+
+Lmod is automatically replacing "openmpi4/4.1.2-4a" with "openmpi/4.1.2-4a".
+
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:21<00:21, 21.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 16.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 17.35s/it]
+  0%|          | 0/5040 [00:00<?, ?it/s]/home/mmarvani/deepseek-py-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/mmarvani/deepseek-py-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+  0%|          | 1/5040 [01:47<150:23:00, 107.44s/it]  0%|          | 2/5040 [02:24<92:09:01, 65.85s/it]  
